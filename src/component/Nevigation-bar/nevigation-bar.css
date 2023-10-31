@@ -1,0 +1,25 @@
+.Logo{
+    
+    padding-left: 112px;
+    padding-top: 19px;
+    padding-bottom: 21px;
+}
+
+.Navbar{
+
+    background-color: #1C2B35;
+    display: flex;
+    height: 80px;
+    width: 1365.5px;
+   
+    
+}
+.button{
+     
+    padding-left: 600px;
+    padding-top: 30px;
+    
+}
+.order{
+    padding-left: 20px;
+}
