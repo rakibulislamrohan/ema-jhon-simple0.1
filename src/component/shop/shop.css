@@ -1,0 +1,18 @@
+.total-component{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.main-shop{
+    font-size: 10px;
+    text-align: center;
+}
+.order{
+    height: 30px;
+    width: 176px;
+}
+.cart{
+    background-color: #FF99004D;
+    height: 944px;
+    width: 264px;
+    text-align: center;
+}
