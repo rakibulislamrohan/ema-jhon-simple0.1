@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './shop.css';
+import Product from '../product/product';
 
 const shop = (props) => {
 
@@ -15,7 +16,13 @@ const shop = (props) => {
         
         <div className='total-component'>
              <div className="main-shop">
-                     <h1>this is a component: {products.length}</h1>
+                     {
+                        products.map(product => <Product
+                        key={product.id}
+                        product = {product}
+                 
+                        ></Product>)
+                     }
              </div>
 
              
